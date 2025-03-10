@@ -1,2 +1,2 @@
-# Intro-to-ML
-This is my knowledge i want to share about the machine learning 
+# Number-recognition-using-MNIST-dataset
+This repository show various ways to recognize single digit numbers including KNN,SVM,FCN,CNN and YOLO.
