@@ -32,15 +32,19 @@ Each image is a 28x28 pixel grayscale image.
 
 1. **Data Preprocessing**:
    - Load the MNIST dataset.
-   - Normalize the images for better model performance.
    - Augment the data to increase the recognition ability of the models.
-
+   - Divide training dataset into training dataset and validation dataset.
+   - Normalize the images for better model performance.
+   - Combine multiple single-digit images into a single image for YOLO training.
+     
 2. **Model Selection**:
-   - Build a neural network model using libraries such as TensorFlow or PyTorch.
-   - Use layers such as convolutional layers, pooling layers, and fully connected layers.
+   - Testing with basic methods such as KNN and SVM
+   - Build a fully connected network model using libraries such as TensorFlow or PyTorch.
+   - Then testing by using convolutional neural network with layers such as convolutional layers, pooling layers, and fully connected layers.
+   - Build a YOLO model to detect multiple digits in one image.
 
 3. **Training**:
-   - Train the model on the training dataset.
+   - Train the model on the training dataset and validation dataset.
    - Use different techniques such as KNN, SVM, FCN, CNN for single digit recognition and YOLO for multiple digit recognition.
 
 4. **Evaluation**:
@@ -54,6 +58,17 @@ To run this project, you need to have Python installed along with the following 
 ```
 pip install numpy matplotlib torch torchvision
 ```
+## Usage
+
+To run the number recognition model, you can execute the following command:
+```
+python main.py
+```
+This will train the model and evaluate its performance on the test dataset. You can visualize the results using the provided scripts.
+
+## Results
+
+The model achieved an accuracy of approximately **99.5%** on the test dataset in best model(CNN). You can view the training and validation accuracy over epochs in the generated plots.
 
 ## License
 
