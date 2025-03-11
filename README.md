@@ -53,3 +53,10 @@ To run this project, you need to have Python installed along with the following 
 
 ```bash
 pip install numpy matplotlib torch torchvision
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+- The MNIST dataset creators: Yann LeCun, Corinna Cortes, and Christopher J.C. Burges
+- [List any other resources or individuals you'd like to acknowledge]
