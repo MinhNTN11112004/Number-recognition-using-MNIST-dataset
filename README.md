@@ -33,6 +33,7 @@ Each image is a 28x28 pixel grayscale image.
 1. **Data Preprocessing**:
    - Load the MNIST dataset.
    - Normalize the images for better model performance.
+   - Augment the data to increase the recognition ability of the models.
 
 2. **Model Selection**:
    - Build a neural network model using libraries such as TensorFlow or PyTorch.
@@ -40,7 +41,7 @@ Each image is a 28x28 pixel grayscale image.
 
 3. **Training**:
    - Train the model on the training dataset.
-   - Use techniques such as dropout and batch normalization to improve performance.
+   - Use different techniques such as KNN, SVM, FCN, CNN for single digit recognition and YOLO for multiple digit recognition.
 
 4. **Evaluation**:
    - Evaluate the model on the test dataset.
