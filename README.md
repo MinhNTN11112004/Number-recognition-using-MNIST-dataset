@@ -70,6 +70,11 @@ This will train the model and evaluate its performance on the test dataset. You 
 
 The model achieved an accuracy of approximately **99.5%** on the test dataset in best model(CNN). You can view the training and validation accuracy over epochs in the generated plots.
 
+The YOLO model's performance was evaluated using mean Average Precision (mAP) as the primary metric. The results are as follows:
+
+- **mAP**: The model achieved a mean Average Precision of **81%**, indicating its effectiveness in detecting and classifying multiple digits within a single image.
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
