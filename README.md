@@ -51,8 +51,9 @@ Each image is a 28x28 pixel grayscale image.
 
 To run this project, you need to have Python installed along with the following libraries:
 
-```bash
+```
 pip install numpy matplotlib torch torchvision
+```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
