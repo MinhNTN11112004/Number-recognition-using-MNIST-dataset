@@ -18,6 +18,7 @@ This project implements a number recognition system using the MNIST dataset. The
 ## Introduction
 
 The goal of this project is to build a machine learning model that can accurately classify handwritten digits (0-9) from images. The MNIST dataset consists of 70,000 images of handwritten digits, split into 60,000 training images and 10,000 test images.
+Also, I have a small game to utilize the model, wanna watch, click [here](https://drive.google.com/file/d/1FEoxcFAh-Y7i9WGd6vM7j2iTJWj2JFfZ/view?usp=sharing​)
 
 ## Dataset
 
